@@ -18,7 +18,7 @@
    <marginLine fg="394448"/>
    <markAllHighlight color="6b8189"/> <!-- TODO: Fix me -->
    <markOccurrencesHighlight color="5b7179" border="false"/>
-   <matchedBracket fg="1B2B34" bg="00BBFF" highlightBoth="true" animate="true"/>
+   <matchedBracket fg="6A8088" bg="6b8189" highlightBoth="false" animate="false"/>
    <hyperlinks fg="a082bd"/>
    <secondaryLanguages>
       <language index="1" bg="333344"/>
@@ -46,9 +46,9 @@
       <style token="FUNCTION" fg="E0E2E4"/>
       <style token="DATA_TYPE" fg="678CB1" bold="true"/>
       <style token="LITERAL_BOOLEAN" fg="93C763" bold="true"/>
-      <style token="LITERAL_NUMBER_DECIMAL_INT" fg="F99157"/>
-      <style token="LITERAL_NUMBER_FLOAT" fg="F99157"/>
-      <style token="LITERAL_NUMBER_HEXADECIMAL" fg="F99157"/>
+      <style token="LITERAL_NUMBER_DECIMAL_INT" fg="FFCD22"/>
+      <style token="LITERAL_NUMBER_FLOAT" fg="FFCD22"/>
+      <style token="LITERAL_NUMBER_HEXADECIMAL" fg="FFCD22"/>
       <style token="LITERAL_STRING_DOUBLE_QUOTE" fg="EC7600"/>
       <style token="LITERAL_CHAR" fg="EC7600"/>
       <style token="LITERAL_BACKQUOTE" fg="EC7600"/>

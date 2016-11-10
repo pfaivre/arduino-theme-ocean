@@ -2,14 +2,14 @@
 <!DOCTYPE RSyntaxTheme SYSTEM "theme.dtd">
 
 <!--
-	Dark theme based off of Notepad++'s Obsidian theme.
+	RSyntaxTextArea's default theme.
 	See theme.dtd and org.fife.ui.rsyntaxtextarea.Theme for more information.
 -->
 <RSyntaxTheme version="1.0">
 
    <!-- Omitting baseFont will use a system-appropriate monospaced. -->
    <!--<baseFont family="..." size="13"/>-->
-
+   
    <!--  General editor colors. -->
    <background color="293134"/>
    <caret color="CCD4D7"/>
@@ -31,27 +31,40 @@
    <lineNumbers fg="42525A"/>
    <foldIndicator fg="CCCCCC" iconBg="42525A"/>
    <iconRowHeader activeLineRange="3399ff"/>
-
+   
    <!-- Syntax tokens. -->
    <tokenStyles>
       <style token="IDENTIFIER" fg="E0E2E4"/>
-      <style token="RESERVED_WORD" fg="93C763" bold="true"/>
-      <style token="RESERVED_WORD_2" fg="93C763" bold="true"/>
+      <style token="DATA_TYPE" fg="678CB1" bold="true"/>
+      <style token="FUNCTION" fg="dcdcdc"/>
+      <style token="VARIABLE" fg="dcdcdc" bold="true"/>
+      <style token="RESERVED_WORD" fg="539bd8" bold="false"/>
+      <style token="RESERVED_WORD_2" fg="539bd8" bold="false"/>
+      <style token="PREPROCESSOR" fg="b4b4b4"/>
+
       <style token="ANNOTATION" fg="aaaaaa"/>
-      <style token="COMMENT_DOCUMENTATION" fg="6C788C"/>
-      <style token="COMMENT_EOL" fg="66747B"/>
-      <style token="COMMENT_MULTILINE" fg="66747B"/>
+      <style token="COMMENT_DOCUMENTATION" fg="8fca84"/>
+      <style token="COMMENT_EOL" fg="8fca84"/>
+      <style token="COMMENT_MULTILINE" fg="8fca84"/>
       <style token="COMMENT_KEYWORD" fg="ae9fbf"/>
       <style token="COMMENT_MARKUP" fg="ae9fbf"/>
-      <style token="FUNCTION" fg="E0E2E4"/>
-      <style token="DATA_TYPE" fg="678CB1" bold="true"/>
-      <style token="LITERAL_BOOLEAN" fg="FFCD22" bold="true"/>
-      <style token="LITERAL_NUMBER_DECIMAL_INT" fg="FFCD22"/>
-      <style token="LITERAL_NUMBER_FLOAT" fg="FFCD22"/>
-      <style token="LITERAL_NUMBER_HEXADECIMAL" fg="FFCD22"/>
-      <style token="LITERAL_STRING_DOUBLE_QUOTE" fg="EC7600"/>
-      <style token="LITERAL_CHAR" fg="EC7600"/>
-      <style token="LITERAL_BACKQUOTE" fg="EC7600"/>
+      <style token="LITERAL_BOOLEAN" fg="539bd8" bold="false"/>
+      <style token="LITERAL_NUMBER_DECIMAL_INT" fg="b4cfa7"/>
+      <style token="LITERAL_NUMBER_FLOAT" fg="b4cfa7"/>
+      <style token="LITERAL_NUMBER_HEXADECIMAL" fg="b4cfa7"/>
+      <style token="LITERAL_STRING_DOUBLE_QUOTE" fg="d79d83"/>
+      <style token="LITERAL_CHAR" fg="d79d83"/>
+      <style token="LITERAL_BACKQUOTE" fg="d79d83"/>
+
+      <style token="OPERATOR" fg="b4b4b4"/>
+      <style token="REGEX" fg="d39745"/>
+      <style token="SEPARATOR" fg="aaaaaa"/>
+      <style token="WHITESPACE" fg="E0E2E4"/>
+      <style token="ERROR_IDENTIFIER" fg="E0E2E4" bg="04790e"/>
+      <style token="ERROR_NUMBER_FORMAT" fg="E0E2E4" bg="04790e"/>
+      <style token="ERROR_STRING_DOUBLE" fg="E0E2E4" bg="04790e"/>
+      <style token="ERROR_CHAR" fg="E0E2E4" bg="04790e"/>
+
       <style token="MARKUP_TAG_DELIMITER" fg="678CB1"/>
       <style token="MARKUP_TAG_NAME" fg="ABBFD3" bold="true"/>
       <style token="MARKUP_TAG_ATTRIBUTE" fg="B3B689"/>
@@ -62,17 +75,6 @@
       <style token="MARKUP_CDATA" fg="d5e6f0"/>
       <style token="MARKUP_CDATA_DELIMITER" fg="ae9fbf"/>
       <style token="MARKUP_ENTITY_REFERENCE" fg="678CB1"/>
-      <style token="OPERATOR" fg="aaaaaa"/>
-      <style token="PREPROCESSOR" fg="A082BD"/>
-      <style token="REGEX" fg="d39745"/>
-      <style token="SEPARATOR" fg="aaaaaa"/>
-      <style token="VARIABLE" fg="ae9fbf" bold="true"/>
-      <style token="WHITESPACE" fg="E0E2E4"/>
-
-      <style token="ERROR_IDENTIFIER" fg="E0E2E4" bg="04790e"/>
-      <style token="ERROR_NUMBER_FORMAT" fg="E0E2E4" bg="04790e"/>
-      <style token="ERROR_STRING_DOUBLE" fg="E0E2E4" bg="04790e"/>
-      <style token="ERROR_CHAR" fg="E0E2E4" bg="04790e"/>
    </tokenStyles>
 
 </RSyntaxTheme>

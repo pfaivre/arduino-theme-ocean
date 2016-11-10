@@ -1,19 +1,19 @@
 #FUNCTIONS COLOR 			#D35400 - ORANGE			KEYWORD1
 #FUNCTIONS COLOR			#D35400 - ORANGE			KEYWORD2
-#STRUCTURE COLORS 			#5E6D03 - GREEN			KEYWORD3
-#VARIABLES COLOR 				#00979C - BLUE				LITERAL1
+#STRUCTURE COLORS 			#728E00 - GREEN			KEYWORD3
+#CONSTANTS COLOR 				#00979C - BLUE				LITERAL1
+#VARIABLES COLOR 				#00979C - BLUE				LITERAL2
 
 #ERROR COLOR					#A61717 - RED
 #COMMENTS // COLOR			#95A5A6 - LIGHT GREY
 #COMMENTS /**/ COLOR		#434F54	- DARK GREY
 
-
 # GUI - STATUS
-status.notice.fgcolor = #CDD3DE
+status.notice.fgcolor = #dcdcdc
 status.notice.bgcolor = #42525A
 status.error.fgcolor = #CDD3DE
-status.error.bgcolor = #AB4411
-status.edit.fgcolor = #CDD3DE
+status.error.bgcolor = #B05313
+status.edit.fgcolor = #FFFFFF
 status.edit.bgcolor = #D7A100
 status.font = SansSerif,plain,12
 
@@ -29,7 +29,7 @@ header.text.font = SansSerif,plain,12
 console.font = Monospaced,plain,11
 console.font.macosx = Monaco,plain,10
 console.color = #000000
-console.output.color = #eeeeee
+console.output.color = #dcdcdc
 console.error.color = #D07446
 
 # GUI - BUTTONS
@@ -37,14 +37,14 @@ buttons.bgcolor = #42525A
 buttons.status.font = SansSerif,plain,12
 buttons.status.color = #ffffff
 
-# GUI - LINESTATUS
+# GUI - LINESTATUS   
 linestatus.color = #ffffff
 linestatus.bgcolor = #42525A
 
 # EDITOR - DETAILS
 
 # foreground and background colors
-editor.fgcolor = #CDD3DE
+editor.fgcolor = #dcdcdc
 editor.bgcolor = #1B2B34
 
 # highlight for the current line
@@ -75,37 +75,37 @@ editor.brackethighlight.color = #006699
 # TEXT - KEYWORDS
 
 # FUNCTIONS
-editor.keyword1.style = #6699CC,bold
-editor.data_type.style = #6699CC,bold
+editor.keyword1.style = #FF00F0,plain
+editor.data_type.style = #74cac2,plain // Lib class names
 
 # METHODS
-editor.keyword2.style = #6699CC,plain
-editor.function.style = #6699CC,plain
+editor.keyword2.style = #00FF29,plain
+editor.function.style = #dcdcdc,plain // lib methods
 
 # STRUCTURES
-editor.keyword3.style = #FAC863,plain
-editor.reserved_word.style = #FAC863,plain
+editor.keyword3.style = #DE00FF,plain
+editor.reserved_word.style = #539bd8,plain
 
 
 # TEXT - LITERALS
 
 # constants & datatypes
-editor.literal1.style = #F99157,plain
+editor.literal1.style = #b4cfa7,plain
 
 # p5 built in variables: e.g. mouseX, width, pixels
-editor.literal2.style = #00979C,plain
-editor.variable.style = #C594C5,plain
-editor.reserved_word_2.style = #C594C5,plain
-editor.literal_boolean.style = #00979C,plain
-editor.literal_char.style = #00979C,plain
-editor.literal_string_double_quote.style = #99C794,plain
-editor.preprocessor.style = #C594C5,plain
+editor.literal2.style = #b4cfa7,plain
+editor.variable.style = #dcdcdc,plain
+editor.reserved_word_2.style = #539bd8,plain
+editor.literal_boolean.style = #539bd8,plain
+editor.literal_char.style = #d79d83,plain
+editor.literal_string_double_quote.style = #d79d83,plain
+editor.preprocessor.style = #b4b4b4,plain
 
 # http://www.arduino.cc/ - GET RID OF UNDERLINE!
-editor.url.style = #81A421,plain
+editor.url.style = #21A0A4,plain
 
 # e.g. + - = /
-editor.operator.style = #5FB3B3,plain
+editor.operator.style = #b4b4b4,plain
 
 
 # ?? maybe this is for words followed by a colon
@@ -114,8 +114,8 @@ editor.label.style = #5FB3B3,bold
 
 
 # TEXT - COMMENTS
-editor.comment1.style = #6A7985,italic
-editor.comment2.style = #6A7985,italic
+editor.comment1.style = #8fca84,plain
+editor.comment2.style = #8fca84,plain
 
 
 # LINE STATUS - editor line number status bar at the bottom of the screen
