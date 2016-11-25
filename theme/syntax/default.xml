@@ -38,23 +38,23 @@
       <style token="DATA_TYPE" fg="678CB1" bold="true"/>
       <style token="FUNCTION" fg="dcdcdc"/>
       <style token="VARIABLE" fg="dcdcdc" bold="true"/>
-      <style token="RESERVED_WORD" fg="539bd8" bold="false"/>
-      <style token="RESERVED_WORD_2" fg="539bd8" bold="false"/>
-      <style token="PREPROCESSOR" fg="b4b4b4"/>
+      <style token="RESERVED_WORD" fg="569cd6" bold="false"/>
+      <style token="RESERVED_WORD_2" fg="569cd6" bold="false"/>
+      <style token="PREPROCESSOR" fg="9b9b9b"/>
 
       <style token="ANNOTATION" fg="aaaaaa"/>
-      <style token="COMMENT_DOCUMENTATION" fg="8fca84"/>
-      <style token="COMMENT_EOL" fg="8fca84"/>
-      <style token="COMMENT_MULTILINE" fg="8fca84"/>
+      <style token="COMMENT_DOCUMENTATION" fg="57a64a"/>
+      <style token="COMMENT_EOL" fg="57a64a"/>
+      <style token="COMMENT_MULTILINE" fg="57a64a"/>
       <style token="COMMENT_KEYWORD" fg="ae9fbf"/>
       <style token="COMMENT_MARKUP" fg="ae9fbf"/>
-      <style token="LITERAL_BOOLEAN" fg="539bd8" bold="false"/>
-      <style token="LITERAL_NUMBER_DECIMAL_INT" fg="b4cfa7"/>
-      <style token="LITERAL_NUMBER_FLOAT" fg="b4cfa7"/>
-      <style token="LITERAL_NUMBER_HEXADECIMAL" fg="b4cfa7"/>
-      <style token="LITERAL_STRING_DOUBLE_QUOTE" fg="d79d83"/>
-      <style token="LITERAL_CHAR" fg="d79d83"/>
-      <style token="LITERAL_BACKQUOTE" fg="d79d83"/>
+      <style token="LITERAL_BOOLEAN" fg="569cd6" bold="false"/>
+      <style token="LITERAL_NUMBER_DECIMAL_INT" fg="b5cea8"/>
+      <style token="LITERAL_NUMBER_FLOAT" fg="b5cea8"/>
+      <style token="LITERAL_NUMBER_HEXADECIMAL" fg="b5cea8"/>
+      <style token="LITERAL_STRING_DOUBLE_QUOTE" fg="d69d85"/>
+      <style token="LITERAL_CHAR" fg="d69d85"/>
+      <style token="LITERAL_BACKQUOTE" fg="d69d85"/>
 
       <style token="OPERATOR" fg="b4b4b4"/>
       <style token="REGEX" fg="d39745"/>

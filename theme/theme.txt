@@ -76,7 +76,7 @@ editor.brackethighlight.color = #006699
 
 # FUNCTIONS
 editor.keyword1.style = #FF00F0,plain
-editor.data_type.style = #74cac2,plain // Lib class names
+editor.data_type.style = #4ec9b0,plain // Lib class names
 
 # METHODS
 editor.keyword2.style = #00FF29,plain
@@ -84,22 +84,22 @@ editor.function.style = #dcdcdc,plain // lib methods
 
 # STRUCTURES
 editor.keyword3.style = #DE00FF,plain
-editor.reserved_word.style = #539bd8,plain
+editor.reserved_word.style = #569cd6,plain
 
 
 # TEXT - LITERALS
 
 # constants & datatypes
-editor.literal1.style = #b4cfa7,plain
+editor.literal1.style = #b5cea8,plain
 
 # p5 built in variables: e.g. mouseX, width, pixels
-editor.literal2.style = #b4cfa7,plain
+editor.literal2.style = #b5cea8,plain
 editor.variable.style = #dcdcdc,plain
-editor.reserved_word_2.style = #539bd8,plain
-editor.literal_boolean.style = #539bd8,plain
-editor.literal_char.style = #d79d83,plain
-editor.literal_string_double_quote.style = #d79d83,plain
-editor.preprocessor.style = #b4b4b4,plain
+editor.reserved_word_2.style = #569cd6,plain
+editor.literal_boolean.style = #569cd6,plain
+editor.literal_char.style = #d69d85,plain
+editor.literal_string_double_quote.style = #d69d85,plain
+editor.preprocessor.style = #9b9b9b,plain
 
 # http://www.arduino.cc/ - GET RID OF UNDERLINE!
 editor.url.style = #21A0A4,plain
@@ -114,8 +114,8 @@ editor.label.style = #5FB3B3,bold
 
 
 # TEXT - COMMENTS
-editor.comment1.style = #8fca84,plain
-editor.comment2.style = #8fca84,plain
+editor.comment1.style = #57a64a,plain
+editor.comment2.style = #57a64a,plain
 
 
 # LINE STATUS - editor line number status bar at the bottom of the screen
